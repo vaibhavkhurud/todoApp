@@ -6,7 +6,7 @@ body{
 .todo{
     border: 3px solid rgb(230, 43, 43);
     height: 40rem;
-    width: 40%;
+    max-width: 35rem;
     margin:50px auto;
     overflow: auto;
     scrollbar-width:none
@@ -14,8 +14,7 @@ body{
 h1{
     color: red;
     font-size: 2em;
-    text-align: center;
-    margin:5px 180px;  
+    text-align: center; 
     font-family: Arial, sans-serif;
 }
 
@@ -97,4 +96,14 @@ button{
     font-size: 1em;
     /* margin-bottom: 10px; */
     font-weight: 900;
+}
+
+
+@media screen and (max-width: 500px) {
+    .todo{
+        width: 90%;
+        height: 37rem;
+    }
+   
+    
 }
